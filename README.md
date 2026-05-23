@@ -84,4 +84,4 @@ Calculadora-Android/
 
 ---
 
-Desarrollado con ❤️ por LynxDevs.
+Desarrollado con ❤️ por Alberto.
