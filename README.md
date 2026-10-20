@@ -85,3 +85,98 @@ Calculadora-Android/
 ---
 
 Desarrollado con ❤️ por Alberto.
+
+
+
+---
+
+# English Version
+
+# Calculadora Android & Figma Design 📱
+
+This project is a complete calculator solution that includes both a native implementation in **Android Studio** and a working prototype based on a **Figma** design.
+
+## 🚀 Overview
+
+The repository is split into two major sections:
+1.  **Android Studio Calculator**: A native Java application for Android.
+2.  **Figma Calculator**: A web implementation (React + Vite + Tailwind CSS) that faithfully reflects the Figma design and documentation.
+
+---
+
+## 📱 Android Studio Calculator
+
+This is the main application for Android devices. It offers an intuitive interface with standard and advanced calculation capabilities.
+
+### ✨ Features
+*   **Basic Operations**: Addition, subtraction, multiplication and division.
+*   **Advanced Functions**: Square root, squaring and percentage.
+*   **Memory Management**: `M+` and `M-` functions to store temporary results.
+*   **State Persistence**: Keeps current calculations even if the app restarts or the screen rotates.
+*   **Adaptive Interface**: Designed to be clear and functional across different screen sizes.
+
+### 🛠️ Technologies Used
+*   **Language**: Java
+*   **Environment**: Android Studio
+*   **Components**: AppCompat, Material Design components.
+
+### 🏃 How to Run
+1.  Open the `Calculadora Android Studio` folder in **Android Studio**.
+2.  Sync the project with the Gradle files.
+3.  Connect your Android device or start an emulator.
+4.  Click **'Run'**.
+
+---
+
+## 🎨 Figma Calculator (Web Prototype)
+
+This section contains the fairly complete code derived directly from the Figma design, allowing you to preview the interface in a web environment before the final deployment.
+
+### ✨ Features
+*   **Design Fidelity**: Exact implementation of the design tokens and components defined in Figma.
+*   **Interactivity**: A working prototype that performs basic calculations in the browser.
+*   **Design Documentation**: Includes guides and resources used during the design phase.
+
+### 🛠️ Technologies Used
+*   **Framework**: React with TypeScript
+*   **Bundler**: Vite
+*   **Styles**: Tailwind CSS
+*   **Components**: Based on shadcn/ui
+
+### 🏃 How to Run
+1.  Navigate to the `Calculadora figma` folder.
+2.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+4.  Open `http://localhost:5173` in your browser.
+
+---
+
+## 📂 Project Structure
+
+```
+Calculadora-Android/
+├── Calculadora Android Studio/   # Native Android project
+│   ├── app/src/main/java/...     # Java source code
+│   └── app/src/main/res/...      # UI resources (layouts, drawables)
+├── Calculadora figma/            # Web implementation of the design
+│   ├── src/app/components/       # React components
+│   └── guidelines/               # Design documentation
+└── README.md                     # This file
+```
+
+## 📜 Credits and Attributions
+
+*   **Original Design**: Based on [ETA Calculator](https://www.figma.com/design/PwYu8zkb1cf43vvVcy4UZ6/ETA-Calculator) on Figma.
+*   **Icons and UI**: [shadcn/ui](https://ui.shadcn.com/) under the MIT license.
+*   **Images**: Resources from [Unsplash](https://unsplash.com).
+
+---
+
+Developed with ❤️ by Alberto.
+
