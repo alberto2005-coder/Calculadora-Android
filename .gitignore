@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------------------
+# Android / Gradle
+# ---------------------------------------------------------------------------
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.hprof
+
+# Artefactos de compilación
+*.apk
+*.aab
+*.ap_
+*.dex
+bin/
+gen/
+out/
+release/
+
+# Firmas (no subir certificados)
+*.jks
+*.keystore
+!debug.keystore
+
+# Node.js (prototipos web dentro del proyecto)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Logs y sistema operativo
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
